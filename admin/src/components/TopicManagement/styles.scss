@@ -1,0 +1,29 @@
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    background: #F6F8FF;
+    border-radius: 10px;
+}
+
+.topic-item {
+    border: solid 1px #e5e5e5;
+    font-size: 16px;
+    margin-top: 15px;
+    padding: 10px 25px;
+    h4 {
+        color: #1D2563;
+        font-size: 18px;
+    }
+
+    .topic-department,
+    .topic-create_at {
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    .topic-amount {
+        color: rgba(17, 96, 214, 1);
+    }
+
+    .topic-print {
+        color: rgba(21, 169, 27, 1);
+        cursor: pointer;
+    }
+}

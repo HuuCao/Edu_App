@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "550220836981",
+    "project_id": "edu-go-1f960",
+    "storage_bucket": "edu-go-1f960.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550220836981:android:753a042e38fe1cf7ab483c",
+        "android_client_info": {
+          "package_name": "com.viesoftware.edu01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550220836981-jr02drporr5qd0g27kau72db9po1tli5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.viesoftware.edu01",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "550220836981-b4a4bvafnqeuufcljjpb5k70auc5lt81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrIb77Ox6X-dtWljZ0BTQJntWUI-TtROU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550220836981-b4a4bvafnqeuufcljjpb5k70auc5lt81.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "550220836981-6as1kh8n0tio1qj1q09qct3nu7qppvsk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.viesoftware.edu01"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

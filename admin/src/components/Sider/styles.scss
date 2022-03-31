@@ -1,0 +1,146 @@
+.ant-layout{
+    min-height: 100vh;
+}
+.layout{
+    font-family: Roboto;
+    height: 100%;
+}
+.logo {
+    text-align: center;
+    height: 32px;
+    margin: 16px;
+}
+.edu{
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.38em;
+    color: #FFFFFF;
+}
+.sider{
+    background: #1D2563;
+    
+}
+.menu{
+    background: linear-gradient(173.94deg, #1D2563 20.97%, rgba(29, 37, 99, 0.88) 74.86%);
+}
+
+.site-layout{
+    background: #FFFFFF;
+}
+.site-layout-background {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 0px 0px 0px;
+}
+.avatar{
+    cursor: pointer;
+    box-shadow: -8px -8px 8px -2px #FFFFFF, 8px 8px 8px -2px #D6D6E1;
+    border-radius: 100px;
+    height: 32px;
+}
+.site-content-background {
+    background: #FFFFFF;
+    width: auto;
+    height: calc(100vh - 64px);
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-btn{ 
+    cursor: pointer;
+    font-weight: 700;
+    color: #FFFF;
+    font-size: 30px;
+    text-align: left;
+}
+.img-logo {
+    width: 50%;
+}
+.user-info{
+    display: flex;
+}
+    .user-ava{
+        margin: 0px 20px 0px 20px;
+        height: 50%;
+    }
+    .user-detail{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .edit-info{
+        display: flex;
+        flex-direction: column; 
+    }
+        .user-sub{
+            display: flex;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .user-input{
+            width: 100%;
+            background: #FFFFFF;
+            border: 1px solid #292929;
+            box-sizing: border-box;
+            border-radius: 15px;
+            margin-bottom: 15px;
+            padding: 10px 0px 10px 20px;
+        }
+        .ant-menu-light .ant-menu-item-active, .ant-menu-light .ant-menu-item:hover, .ant-menu-light .ant-menu-submenu-active, .ant-menu-light .ant-menu-submenu-title:hover, .ant-menu-light .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open{
+            color: #fff;
+            font-size: 14px;
+            font-weight: 300;
+        }
+        .ant-menu-item-selected, .ant-menu-item-selected a, .ant-menu-item-selected a:hover{
+            color: #fff;
+            font-size: 14px;
+            font-weight: 300;
+        }
+        .ant-menu-item{
+            font-size: 14px;
+            font-weight: 700;   
+        }
+        .ant-menu-item a
+        {
+            color: #FFFFFF;
+            font-weight: 300;
+        }
+        .ant-menu-submenu-title{
+            font-size: 14px;
+            font-weight: 400;
+            
+        }
+.ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left {
+    border-right: 0px solid #f0f0f0;
+}
+.ant-menu-title-content{
+    color: #FFFFFF;
+    font-weight: 300;
+    
+}
+.ant-menu-submenu-expand-icon, .ant-menu-submenu-arrow {
+    color: #FFFFFF;
+}
+.ant-menu-sub.ant-menu-inline {
+    background: linear-gradient(272.16deg, rgba(87, 96, 168, 0.31) -4.29%, rgba(255, 255, 255, 0.28) 106.94%);
+    opacity: 0.8;
+    
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
+    background-color: #6cb2d280;
+    
+}
+.ant-menu-inline.ant-menu-root .ant-menu-item, .ant-menu-inline.ant-menu-root .ant-menu-submenu-title{
+    padding-left: 17px !important;
+}
+.ant-layout-header, .ant-layout-footer {
+    flex: 0 0 0;
+}
+.ant-menu-root.ant-menu-inline-collapsed .ant-menu-item > .ant-menu-inline-collapsed-noicon, .ant-menu-root.ant-menu-inline-collapsed .ant-menu-submenu .ant-menu-submenu-title > .ant-menu-inline-collapsed-noicon {
+    font-size: 36px;
+    text-align: center;
+    color: #FFFF;
+}

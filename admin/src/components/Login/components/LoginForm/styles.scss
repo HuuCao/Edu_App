@@ -1,0 +1,42 @@
+.input {
+    background: transparent;
+    border-radius: 5px;
+    width: 450px;
+    // border-bottom: 1px solid #fff;
+    font-size: 18px;
+}
+.loginForm-sub-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.loginForm-confirmBtn {
+
+    height: 40px;
+    background: #FF7F2D;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 450px !important;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    &:hover {
+        background: #FFFFFF;
+        color: #FF7F2D;
+    }
+}
+.loginForm-remember {
+    margin-left: 25px;
+    margin-right: 5px;
+}
+.ant-input-lg {
+    background: #ffffff00;
+}
+.ant-input-affix-wrapper {
+    border-bottom: 1px solid #fff;
+}
