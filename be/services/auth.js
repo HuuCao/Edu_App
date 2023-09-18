@@ -117,15 +117,15 @@ const login = async (req, res, next) => {
 //     var transporter = nodemailer.createTransport({
 //       service: "gmail",
 //       auth: {
-//         user: "bot.vie.2021@gmail.com",
-//         pass: "@viesoftware55555",
+//         user: "bot.huucao.2021@gmail.com",
+//         pass: "@huucaosoftware55555",
 //       },
 //     });
 
 //     var codeOTP = Math.floor(Math.random() * (9999 - 1000)) + 1000;
 
 //     var mailOptions = {
-//       from: "bot.vie.2021@gmail.com",
+//       from: "bot.huucao.2021@gmail.com",
 //       to: user.mail,
 //       subject: "Forgot Password",
 //       text: "Mã OTP của bạn là: " + codeOTP,

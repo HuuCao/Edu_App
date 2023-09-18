@@ -2,7 +2,7 @@ const jwt = require("../config/jwt");
 
 module.exports.auth = () => async (req, res, next) => {
 	const { headers } = req;
-	const token = headers.authorization ? headers.authorization.replace("Viesoftware ","") : null;
+	const token = headers.authorization ? headers.authorization.replace("Huucao ","") : null;
 	if (!token) {
 		throw next(new Error("401:Forbiden"));
 	}
